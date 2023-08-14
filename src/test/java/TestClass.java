@@ -16,7 +16,7 @@ public class TestClass {
         //System.setProperty("webdriver.chrome.driver", "D:\\Aditya\\test\\chromedriver_win32\\chromedriver.exe");
         //driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.google.com");
+        driver.get(System.getProperty("url"));
     }
 
     @Test
